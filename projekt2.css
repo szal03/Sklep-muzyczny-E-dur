@@ -1,0 +1,464 @@
+body{
+	background-color: black;
+	color: white;
+}
+#container{
+	width:1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sekcja1
+{
+	
+	width:1410px;
+	margin:10px;
+	height:180px;
+	
+}
+#logo
+{
+	float:left;
+	width: 640px;
+	color: white;
+	text-align: left;
+	font-style: italic;
+	text-align: center;
+	font-size: 30px;
+	padding: 5px;
+	
+
+}
+#wyszukiwanie
+{
+	margin-top: 150px;
+	margin-bottom:100px;
+	width:350px;
+	float: left;
+	
+}
+
+.funkcje1
+{
+	margin-top:70px;
+	float: left;
+	text-align: center;
+	width: 400px;
+	height: 130px;
+	text-decoration: none;
+	background-color: black;
+	
+}
+.kafelek1
+{
+	float: left;
+	width: 65px;
+	height: 50px;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 45px;
+	text-decoration: none;
+	
+	
+	
+}
+.kafelek1:hover
+{
+	background-color: lavender;
+}
+.sekcja2
+{
+	float: left;
+	width:1160px;
+	height:450px;
+	margin:5px;
+	
+}
+
+#kategorie1
+{
+	float: left;
+	background-color: black;
+	color: black;
+	width: 170px;
+	padding: 10px;
+	text-align: center;
+	font-size:22px;
+	font-weight:bold
+	
+}
+.menu1{
+	width: 150%;
+}
+#menu1{
+	background-color: black;
+	height: 30px;
+}
+#menu2{
+	background-color: blue;
+}
+.podmenu1
+{
+	width: 150px;
+	float: left;
+	
+}
+.podmenu_przycisk{
+	float: left;
+	background-color: black; 
+  border: none;
+  color: white;
+    padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+
+.podmenu_przycisk:hover
+{
+	background:cornflowerblue;
+}
+
+
+#b_kategorie
+{
+	float: left;
+background-color: black; 
+  border: none;
+  color: white;
+  padding: 10px 59px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#content
+{
+	float: left;
+	margin-left: 10px;
+	width: 600px;
+	
+}
+#content_glowna
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 1000px;
+	height: 420px;
+	margin-left: 40px;
+}
+#content_produkty
+{
+	margin-top: 15px;
+	float: left;
+	margin-left: 10px;
+	width: 900px;
+	background-color: grey;
+	height: 400px;
+}
+#content_instrumenty
+{
+	margin-top: 15px;
+	float: left;
+	margin-left: 10px;
+	width: 900px;
+	
+	height: 400px;
+}
+#obrazek_produktu
+{
+	float: left;
+	width: 300px;
+	height: 400px;
+	
+}
+#obrazek_produktu1
+{
+	width: 200px;
+	height: 350px;
+	float: left;
+
+}
+#zdj1_produktu
+{
+	margin-top: 25px;
+	margin-bottom:25px;
+	margin-left: 50px;
+	margin-right:50px;
+	
+	width: 233px;
+	height: 350px;
+	
+}
+#info_o_produkcie
+{
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom:50px;
+	margin-left: 80px;
+	
+	
+	font-style: italic;
+	font-size: 20px;
+	float: right;
+	text-align: left-side;
+	
+}
+#tekst_produkt
+{
+	float: right;
+	width: 300px;
+	height: 300px;
+	margin-bottom:50px;
+	
+	
+	font-style: italic;
+	font-size: 18px;
+	
+	text-align: left-side;
+}
+h5
+{
+	font-size: 23px;
+	color: cornsilk;
+	font-style: normal;
+}
+h2
+{
+	margin-top:1px;
+}
+.sekcja3
+{
+	float: left;
+	width: 200px;
+	height: 400px;
+	background-color: black;
+	margin-left:20px;
+	
+}
+.kwadrat3
+{
+	color: black;
+	margin:10px;
+	width: 180px;
+	float: center;
+	text-align: center;
+	line-height: 150%;
+	font-size: 18px;
+	height: 380px;
+	background-color: lightsteelblue;
+}
+
+.sekcja4
+{
+	float: left;
+	width:1410px;
+	height:450px;
+	margin:5px;
+	
+	
+}
+.box1
+{
+	text-align: center;
+	color: black;
+	margin: 20px;
+	width: 530px;
+	float: left;
+	height: 350px;
+	background: url(img/tlo_box1.png) center center no-repeat;
+	color: white;
+
+	
+}
+
+h7
+{
+	font-size: 23px;
+	color: black;
+	font-style: normal;
+	margin-top: 20px;
+	
+}
+.zdj
+{
+	float: left;
+	text-align: center;
+	padding: 7px;
+	color: white;
+	
+}
+.zdj :hover{
+	border: 1px solid #777;
+}
+
+.box2
+{
+	text-align: center;
+	color: black;
+	margin: 20px;
+	margin-left: 25px;
+	width: 490px;
+	float: left;
+	height: 350px;
+	background: url(img/tlo_box2.png) center center no-repeat;
+	
+}
+h6{
+	font-size: 23px;
+	color: black;
+	font-style: normal;
+	margin: 10px;
+}
+#gal1
+{
+	color: black;
+	margin-left: 30px;
+	height: 420px;
+	float: left;
+	
+}
+
+.zdj_w_galeri
+{
+	margin-top: 20px;
+	height: 270px;
+	width: 400px;
+	text-align: center;
+	font-size: 14px;
+	
+	float: left;
+	overflow: auto;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: LightSlateGray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lightsteelblue; 
+}
+#gal_ul
+{
+	
+	list-style-type: none;
+	
+	
+}
+#zdj_galeria
+{
+	margin: 10px;
+}
+#dol_strony
+{
+	margin-top: 15px;
+}
+
+#footer
+{
+	clear: both;
+	background-color: black;
+	color: white;
+	font-size:12px;
+	text-align: center;
+	padding: 5px;
+}
+
+
+#tab_instrumenty
+{
+	float: left;
+	width:900px;
+	margin:5px;
+	margin-left:20px;
+	background-color:black;
+}
+#tab_instrumenty_s4
+{
+	margin-top:30px;
+	margin-left:8px;
+	font-size: 14px;
+	padding: 10px 10px;
+	float: left;
+}
+#content1
+{
+	float: left;
+	margin-left: 10px;
+	width: 600px;
+}
+#obr_w_tab_instrumenty
+{
+	overflow: auto;
+	margin-left:20px;
+	height: 350px;
+	width:800px;
+}
+#instrumenty_tab
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#instrumenty_tab td, #instrumenty_tab th {
+  border: 1px solid dimgray;
+  padding: 8px;
+  text-align: center;
+}
+
+#instrumenty_tab tr:nth-child(even){background-color: #dimgray;}
+
+#instrumenty_tab tr:hover {background-color: dimgray;}
+
+#instrumenty_tab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: lightsteelblue;
+  color: white;
+}
+#content_kontakt
+{
+	float: left;
+	margin-left: 10px;
+	width: 600px;
+}
+#formularz_kontaktowy
+{
+	float: left;
+	width:500px;
+	height:400px;
+	margin:20px;
+}
+.kafelek12
+{
+	float: left;
+	width: 65px;
+	height: 50px;
+	margin-left: 5px;
+	text-align: center;
+	font-size: 45px;
+	text-decoration: none;
+	
+
+}
+	.kafelek12:hover
+{
+	background-color: lavender;
+}
