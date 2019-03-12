@@ -1,0 +1,50 @@
+.contentWrap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+	width: 80%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.chartWrap {
+	background: #009CEF;
+	padding: 0;
+	overflow: hidden;
+}
+
+.chartTable {
+	background: none;
+	height: 100px;
+	width: 100%;
+	font-weight: lighter;	
+	border-collapse: collapse;  
+}
+
+
+.chartTableBars {
+	background: rgba(255,255,255,0.2);
+	height: 420px;
+	font-size: 15px;  
+	vertical-align: bottom;
+  font-weight: lighter;
+	padding: 0px;
+}
+
+
+.chartPingBar {
+	position: relative;
+	bottom: 0px;
+	margin-top: 00px;
+}
+
+.chartGreen {
+	background: RGBA(10,00,00,0.14);
+}
+
+.chartGreen p {
+	padding: 10px 0px 0px 0px ;
+	color: #FFF;
+  position: relative;
+  top: -30px;
+}
