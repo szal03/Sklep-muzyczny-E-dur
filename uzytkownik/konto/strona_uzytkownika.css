@@ -1,0 +1,327 @@
+
+body {
+-moz-osx-font-smoothing:grayscale;
+-ms-flex-direction:column;
+-webkit-box-direction:normal;
+-webkit-box-orient:vertical;
+-webkit-font-smoothing:antialiased;
+background:black;
+color:#white;
+display:flex;
+flex-direction:column;
+font-family:Montserrat, sans-serif;
+font-size: 1em;
+font-weight:300;
+margin:0;
+min-height:100vh;
+padding:2%;
+}
+
+
+
+nav {
+	margin: 0 auto;
+	
+	background: #00c0d4;
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	color: rgba(255, 255, 255, .9);
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus {
+	color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+	padding-left: 4px;
+	
+}
+
+nav ul li ul li {
+	min-width: 190px;
+}
+
+nav ul li ul li a {
+	background: transparent;
+	color: #555;
+	border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+	background: #eee;
+	color: #111;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
+#sekcja1u
+{
+	
+	width: 800px;
+	color: white;
+	
+	padding:2%;
+	font-family:Montserrat, sans-serif;
+	font-size: 1em;
+	font-weight:300;
+}
+#sekcja2u, #dodawanie_pliku
+{
+	margin-top: 30px;
+	width: 900px;
+	color: white;
+	
+	padding:2%;
+	font-family:Montserrat, sans-serif;
+	font-size: 1em;
+	font-weight:300;
+}
+footer {
+color: #555;
+font-size:12px;
+margin-top:5em;
+text-align:center;
+}
+
+footer a {
+color:#008FEA;
+text-decoration:none;
+}
+.sekcja_srodkowa
+{
+	width: 800px;
+	color: white;
+	margin: auto;
+	padding:2%;
+	font-family:Montserrat, sans-serif;
+	font-size: 1em;
+	font-weight:300;
+}
+.sekcja_tworzenia_zamowienia
+{
+	width: 940px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding:2%;
+	font-family:Montserrat, sans-serif;
+	font-size: 1em;
+	font-weight:300;
+}
+#content_zam_u{
+	
+	margin-top: 15px;
+	float: left;
+	margin-left: 10px;
+	width: 900px;
+	
+	height: 400px;
+}
+#obr_w_tab_instrumenty{
+	
+	overflow: auto;
+	margin-left:20px;
+	height: 350px;
+	width:800px;
+}
+#instrumenty_tab
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 420px;
+  overflow: auto;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: LightSlateGray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lightsteelblue; 
+}
+#instrumenty_tab td, #instrumenty_tab th {
+  border: 1px solid dimgray;
+  padding: 8px;
+  text-align: center;
+}
+
+#instrumenty_tab tr:nth-child(even){background-color: #dimgray;}
+
+#instrumenty_tab tr:hover {background-color: dimgray;}
+
+#instrumenty_tab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+
+#tab_zamowienia td, #tab_zamowienia th {
+  border: 1px solid dimgray;
+  padding: 8px;
+  text-align: center;
+}
+
+#tab_zamowienia tr:nth-child(even){background-color: #dimgray;}
+
+#tab_zamowienia tr:hover {background-color: dimgray;}
+
+#tab_zamowienia th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+.kaf1{
+	float: left;
+	width: 35px;
+	height: 30px;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+}
+.kaf1:hover
+{
+	background-color: lavender;
+}
+#sekcja1u_zamowienia
+{
+	width: 900px;
+	color: white;
+	margin: auto;
+	padding:2%;
+	font-family:Montserrat, sans-serif;
+	font-size: 1em;
+	font-weight:300;
+}
+.button1
+{
+	background-color: black;
+	border: 2px solid LightSlateGray;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+}
+.button2
+{
+	background-color: LightSlateGray;
+	font-size: 20px;
+	border: 2px solid LightSlateGray;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px 24px;
+	color: white;
+	
+	transition-duration: 0.4s;
+}
+.button2:hover{
+	
+	background-color: white;
+	color: black;
+  
+}
+input[type="submit"], input[type="file"] 
+{
+  
+   background-color: darkgray;
+   background-color: LightSlateGray;
+	font-size: 20px;
+	border: 2px solid LightSlateGray;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px 24px;
+	color: white;
+	
+	transition-duration: 0.4s;
+}
+.strona_uzytkownika1
+{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	color: white;
+}
+.tlo1{
+	width:820px;
+	height:312px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	background: url(tlo_uzyt.png) center center no-repeat;
+	float: center;
+}
+.napis{
+	font-size: 20px;
+	padding: 40px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#dane_uzytkownika, #dodaj_a, #zmiana_danych_dane_uzytkownika, #usuwanie_konta
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.zmiana_danych_u1{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	color: white;
+	
+}
+
+
